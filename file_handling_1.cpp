@@ -6,8 +6,8 @@ using namespace std;
 
 int main(){
  	ofstream fout;
- 	fout.open("For Aman.dat");
- 	fout<<"Bihari Raand";
+ 	fout.open("myfile.dat");
+ 	fout<<"Hello, World!";
  	fout.close();
 	return 0;
 }
